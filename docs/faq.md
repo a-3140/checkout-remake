@@ -35,7 +35,7 @@ Check solutions for ["Unauthorized" error](#i-get-unauthorized-error-message-in-
       mutation {
         checkoutCreate(
           input: {
-            channel: "default-channel" # <- Channel slug must be the same as in shipping zone
+            channel: "main" # <- Channel slug must be the same as in shipping zone
             # ...
         ) {
           checkout {

@@ -26034,7 +26034,7 @@ export type PasswordChangeMutationOptions = Apollo.BaseMutationOptions<
 export const RequestEmailChangeDocument = gql`
   mutation RequestEmailChange($newEmail: String!, $password: String!, $redirectUrl: String!) {
     requestEmailChange(
-      channel: "default-channel"
+      channel: "main"
       newEmail: $newEmail
       password: $password
       redirectUrl: $redirectUrl

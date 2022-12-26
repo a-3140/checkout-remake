@@ -24,7 +24,7 @@ export interface Channel {
 }
 
 export const DEFAULT_CHANNEL: Channel = {
-  slug: "default-channel",
+  slug: "main",
   name: "United States Dollar",
   currencyCode: "USD",
 };

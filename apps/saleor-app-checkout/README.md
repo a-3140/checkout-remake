@@ -177,10 +177,7 @@ To generate checkout in GraphQL API and retrieve its `id`:
 ```graphql
 mutation {
   checkoutCreate(
-    input: {
-      channel: "default-channel"
-      lines: [{ variantId: "UHJvZHVjdFZhcmlhbnQ6MjE0", quantity: 1 }]
-    }
+    input: { channel: "main", lines: [{ variantId: "UHJvZHVjdFZhcmlhbnQ6MjE0", quantity: 1 }] }
   ) {
     checkout {
       id
